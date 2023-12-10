@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Pomodoro Timer</h1>
+    <p>Work = 25mins&nbsp;&nbsp;&nbsp;Short Break = 5mins&nbsp;&nbsp;&nbsp;Long Break = 30mins&nbsp;&nbsp;&nbsp;*Every 4 work cycles a long break occurs</p>
+    <div id="labels">
+        <h2 id="Work">Work</h2>
+        <h2 id="Short Break">Short Break</h2>
+        <h2 id="Long Break">Long Break</h2>
+    </div>
+    <div id="timer-container">
+        <p id="timer">25:00</p>
+    </div>
+    <div id="buttons">
+        <button id="startButton" onclick="workTime()">Start</button>
+        <button id="pauseButton" onclick="">Pause</button>
+        <button id="resetButton" onclick="">Reset</button>
+    </div>
+    <script type="text/javascript" src="logic.js"></script>
+</body>
+</html>
